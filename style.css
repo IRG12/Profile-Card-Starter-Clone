@@ -16,9 +16,14 @@ body {
   justify-content: center;
   display: flex;
   flex-direction: column;
+  background-image: url(./images/bg-pattern-bottom.svg),
+    url(images/bg-pattern-top.svg);
+  background-position: 45vw 45vh, right 45vw bottom 45vh;
+  background-repeat: no-repeat;
+  background-color: hsl(185, 75%, 39%);
 }
 
-body::before {
+/* body::before {
   content: "";
   background-image: url("images/bg-pattern-card.svg");
   background-repeat: no-repeat;
@@ -28,7 +33,8 @@ body::before {
   right: 0px;
   bottom: 0px;
   left: 0px;
-}
+  transform: ;
+}  */
 
 .container {
   height: 325px;
